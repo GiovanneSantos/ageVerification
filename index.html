@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ageVerification</title>
+    <link rel="stylesheet" href="style.css"
+  </head>
+  <body>
+    <header>
+      <h1>Age verification</h1>
+    </header>
+    <section>
+      <div>
+        <p>Year of birth: 
+          <input type="number" name="txtyear" id="txtyear" min="0"></p>
+          <p>Sex:
+            <input type="radio" name="radsex" id="male" checked>
+            <label for="male">Male</label>
+            <input type="radio" name="radsex" id="famale">
+            <label for="famale">Famale</label>
+          </p>
+          <p>
+            <input type="button" value="Check" onclick="check()">
+          </p> 
+      </div>
+      <div id="res">
+        Fill in the above data to check the result
+      </div>
+    </section>
+    <footer>
+      <p>
+      <a id="userGitHubLink" href="https://github.com/GiovanneSantos" target="_blank">
+        <span id="userLoginGitHub">&copy;GiovanneSantos</span>
+        </a
+      </p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
